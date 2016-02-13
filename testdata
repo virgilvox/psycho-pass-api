@@ -1,0 +1,3 @@
+curl -H 'Content-type: application/json'  -d '{"user":"virgilvox"}' http://localhost:8070/find
+
+curl -H 'Content-type: application/json'  -d '{"username":"virgilvox3", "password": "xx", "email": "bad@bad.com", "resume": {}}' http://localhost:8070/create
